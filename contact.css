@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* Next three lines are adjusting the bg video to full screen size removing horizontal bars */
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    overflow-x: hidden;
+    
+    
+    
+}
+.info{
+    border: 2px solid rgb(20, 76, 78)  ;
+    background-color: #3a575d;
+    height: 30px; 
+
+}
+.info span{
+    position: absolute;
+    top: 5px;
+    display: inline;
+    padding-left: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    font-size: 12px;
+    font-size: larger;
+    font-weight: bolder;
+    
+
+}
+
+
+.menu a:hover{
+    background-color: white;
+    color: goldenrod;
+}
+.nav {
+    border: 4px solid white;
+ 
+}
+.menu ul li{
+    display: inline;
+    position: relative;
+    padding: 40px;
+    bottom: 40px;
+    left: 190px;
+    margin: 3px;
+    
+
+    
+    
+}
+.menu ul li a{
+
+    
+    text-decoration: none;
+    color: #3a575d;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    
+    
+}
+
+
+
+
+
+
+.logo{
+    margin: 5px;
+    position: relative;
+    padding-left: 20px;
+    
+}
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blueviolet;
+    background-size: cover;
+
+    
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+
+}
+.contact .content p{
+    font-weight: 300;
+    color: #fff;
+    
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.container .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.container .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 22px;
+}
+.container .contactinfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contactinfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+.contactform{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+
+}
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.contactform .inputbox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
